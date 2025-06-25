@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="text-center mt-16 py-8 border-t border-slate-200">
       <Link
-        href="https://github.com"
+        href="https://github.com/takahiro-okada/daily-trial-weekly-coding"
         target="_blank"
         rel="noopener noreferrer"
         className="text-slate-600 hover:text-black transition-colors duration-200 flex items-center justify-center gap-2 underline"
