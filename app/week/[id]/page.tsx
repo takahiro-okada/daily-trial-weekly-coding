@@ -1,4 +1,5 @@
 import { DotFilter } from "./components/DotFilter";
+import { TextAnimation } from "./components/TextAnimation";
 
 export default async function Page({
   params,
@@ -12,6 +13,8 @@ export default async function Page({
     switch (id) {
       case "1":
         return <DotFilter />;
+      case "2":
+        return <TextAnimation />;
       default:
         return (
           <div className="flex items-center justify-center h-screen">

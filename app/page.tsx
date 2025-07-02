@@ -7,6 +7,11 @@ export default function Home() {
       title: "Week 1",
       description: "Dot Filter",
     },
+    {
+      number: 2,
+      title: "Week 2",
+      description: "Text Animation",
+    },
   ];
 
   return (
