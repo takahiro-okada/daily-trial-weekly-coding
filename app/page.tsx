@@ -12,6 +12,11 @@ export default function Home() {
       title: "Week 2",
       description: "Text Animation",
     },
+    {
+      number: 3,
+      title: "Week 3",
+      description: "Frosted glass",
+    },
   ];
 
   return (

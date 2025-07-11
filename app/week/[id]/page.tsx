@@ -1,5 +1,6 @@
 import { DotFilter } from "./components/DotFilter";
 import { TextAnimation } from "./components/TextAnimation";
+import { FrostedGlass } from "./components/FrostedGlass";
 
 export default async function Page({
   params,
@@ -15,6 +16,8 @@ export default async function Page({
         return <DotFilter />;
       case "2":
         return <TextAnimation />;
+      case "3":
+        return <FrostedGlass />;
       default:
         return (
           <div className="flex items-center justify-center h-screen">
